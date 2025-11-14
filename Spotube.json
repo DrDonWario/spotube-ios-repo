@@ -1,0 +1,53 @@
+{
+  "name": "Spotube",
+  "subtitle": "Repo for the iOS Spotube app.",
+  "description": "A cross-platform extensible open-source music streaming platform.\nBring your own music metadata/playlist/audio-source with plugins created by community or by yourself. A small step towards the decentralized music streaming era!\n\nBtw it's not just another Electron app 😉",
+  "iconURL": "https://github.com/KRTirtho/spotube/blob/master/assets/branding/spotube-logo.png?raw=true",
+  "website": "https://spotube.krtirtho.dev/",
+  "patreonURL": "https://patreon.com/krtirtho",
+  "tintColor": "#6156e2",
+  "featuredApps": [
+    "oss.krtirtho.spotube.stable"
+  ],
+  "headerURL": "https://github.com/KRTirtho/spotube/raw/master/assets/branding/spotube_banner.png",
+  "apps": [
+    {
+      "name": "Spotube",
+      "bundleIdentifier": "oss.krtirtho.spotube.stable",
+      "marketplaceID": "",
+      "developerName": "KRTirtho",
+      "subtitle": "An open source music client",
+      "localizedDescription": "",
+      "iconURL": "https://i.imgur.com/LPQvtso.png",
+      "tintColor": "#2c488c",
+      "category": "other",
+      "screenshots": [
+        "https://i.imgur.com/g685gLM.png",
+        "https://i.imgur.com/PTsQXdZ.png",
+        "https://i.imgur.com/cLt2tW4.png",
+        "https://i.imgur.com/6tQ0Kqn.png"
+      ],
+      "versions": [
+        {
+          "downloadURL": "https://github.com/KRTirtho/spotube/releases/download/v5.1.0/Spotube-iOS.ipa",
+          "size": 35000000,
+          "version": "5.1.0",
+          "buildVersion": null,
+          "date": "2025-11-14T19:34:00+01:00",
+          "localizedDescription": "Bug Fixes\n\nChange plugin download directory to application support\n\nplayback: Play next not working\n\nDownloaded tracks are not tagged with metadata\n\nDownload not working in different devices and slow\n\nplayback: Use stream instead of chunked serving of audio bytes\n",
+          "minOSVersion": null
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSCameraUsageDescription": "This app require access to the device camera",
+          "NSMicrophoneUsageDescription": "This app does not require access to the device microphone",
+          "NSPhotoLibraryUsageDescription": "This app require access to the photo library"
+        }
+      },
+      "patreon": {}
+    }
+  ],
+  "news": []
+}
