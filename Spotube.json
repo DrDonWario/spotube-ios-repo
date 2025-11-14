@@ -3,7 +3,7 @@
   "subtitle": "Repo for the iOS Spotube app.",
   "description": "A cross-platform extensible open-source music streaming platform.\nBring your own music metadata/playlist/audio-source with plugins created by community or by yourself. A small step towards the decentralized music streaming era!\n\nBtw it's not just another Electron app 😉",
   "iconURL": "https://github.com/KRTirtho/spotube/blob/master/assets/branding/spotube-logo.png?raw=true",
-  "website": "https://spotube.krtirtho.dev/",
+  "website": "https://github.com/KRTirtho/spotube",
   "patreonURL": "https://patreon.com/krtirtho",
   "tintColor": "#6156e2",
   "featuredApps": [
